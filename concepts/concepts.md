@@ -263,6 +263,10 @@ Estos mensajes que aparecen en la parte inferior de la interfaz de NetPractice, 
 
    - ✅ El paquete llegó a destino correctamente.
 
+5. Loopback
+
+   - Los puertos de looopback solo sirven para que una máquina se pruebe a sí misma.
+
 ### Ejemplos
 
 #### Wrong Network
