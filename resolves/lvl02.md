@@ -72,7 +72,18 @@ La máscara /30 equivale a 255.255.255.252, por lo tanto ya coinciden. Los IPs 1
 <summary>Ver diagrama de red</summary>
 <div align="center">
 <!-- prettier-ignore-start -->
-
+```text
+Red 1: 192.168.72.192/27
+┌─────────────────────────────────────┐
+│             (LAN /27)               │
+│                                     │
+│       C1 ──────────┬──────── D1     │
+│  192.168.72.221/27 192.168.72.222/27│
+│                                     │
+│    Rango host: 192.168.72.193–.222  │
+│    Broadcast : 192.168.72.223       │
+└─────────────────────────────────────┘
+```
 <!-- prettier-ignore-end -->
 </div>
 </details>
