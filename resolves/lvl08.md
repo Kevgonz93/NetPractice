@@ -7,18 +7,9 @@ En este ejercicio tenemos dos clientes (**host C** y **host D**) conectados a tr
 El objetivo es lograr la conectividad total entre los hosts internos y también con Internet.  
 Para ello, debemos trabajar **dentro del rango 159.121.36.0/26** (el rango que Internet reconoce), dividiéndolo en **subredes /28** para los diferentes enlaces.
 
-## Conceptos
-
-- Todas las redes deben estar **dentro del bloque 159.121.36.0/26**, ya que Internet sólo tiene una ruta hacia ese rango.
-- Dividimos el bloque /26 en subredes /28 (4 bloques de 16 direcciones).
-- Cada enlace (R1↔R2, R2↔C y R2↔D) ocupará una de esas subredes.
-- El objetivo es permitir rutas de ida y vuelta (**forward** y **reverse**) entre todos los dispositivos.
-
 ## Goal 01 : conectar host C con host D
 
-### Subredes implicadas
-
-**Subred R2 ↔ C**
+Subred R2 ↔ C
 
 ```
 Red:        159.121.36.16/28
@@ -26,7 +17,7 @@ Rango host: 159.121.36.17 – 159.121.36.30
 Broadcast:  159.121.36.31
 ```
 
-**Subred R2 ↔ D**
+Subred R2 ↔ D
 
 ```
 Red:        159.121.36.0/28
