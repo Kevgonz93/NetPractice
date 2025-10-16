@@ -21,7 +21,7 @@ Usa direcciones de 32 bits, que se representan en 4 bloques decimales separados 
 
 - Formato: X.X.X.X (4 números de 0–255).
 - Cada IP tiene dos partes:
-  - Network (red): identifica la red. Todos los hosto de la misma red tienen en común ese fragmento.
+  - Network (red): identifica la red. Todos los hosts de la misma red tienen en común ese fragmento.
   - Host (anfitrión): identifica la máquina dentro de la red. **ÚNICO E IRREPETIBLE**.
 - Ejemplo: 192.168.1.15/24
   - Red: 192.168.1.0
